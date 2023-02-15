@@ -2,9 +2,8 @@
 title: Flows and ClusterFlows
 ---
 
-See the [Banzai Cloud Logging operator documentation](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/flow/) for the full details on how to configure  `Flows` and `ClusterFlows`.
+For the full details on configuring `Flows` and `ClusterFlows`, see the [Banzai Cloud Logging operator documentation.](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/flow/)
 
-See [Rancher Integration with Logging Services: Troubleshooting](../../../pages-for-subheaders/logging.md#The-Logging-Buffer-Overloads-Pods) for how to resolve memory problems with the logging buffer.
 
 ## Flows
 

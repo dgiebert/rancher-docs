@@ -2,9 +2,7 @@
 title: Outputs and ClusterOutputs
 ---
 
-See the [Banzai Cloud Logging operator documentation](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/flow/) for the full details on how to configure  `Flows` and `ClusterFlows`.
-
-See [Rancher Integration with Logging Services: Troubleshooting](../../../pages-for-subheaders/logging.md#The-Logging-Buffer-Overloads-Pods) for how to resolve memory problems with the logging buffer.
+For the full details on configuring `Outputs` and `ClusterOutputs`, see the [Banzai Cloud Logging operator documentation.](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/output/)
 
 ## Outputs
 
@@ -16,7 +14,7 @@ You can use secrets in these definitions, but they must also be in the same name
 
 `Outputs` can be configured by filling out forms in the Rancher UI.
 
-For the details of `Output` custom resource, see [OutputSpec.](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/crds/v1beta1/output_types/).
+For the details of `Output` custom resource, see [OutputSpec.](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/crds/v1beta1/output_types/)
 
 The Rancher UI provides forms for configuring the following `Output` types:
 
@@ -40,7 +38,7 @@ The Rancher UI provides forms for configuring the following `Output` types:
 
 The Rancher UI provides forms for configuring the `Output` type, target, and access credentials if applicable.
 
-For example configuration for each logging plugin supported by the logging operator, see the [logging operator documentation.](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/plugins/outputs/).
+For example configuration for each logging plugin supported by the logging operator, see the [logging operator documentation.](https://banzaicloud.com/docs/one-eye/logging-operator/configuration/plugins/outputs/)
 
 ## ClusterOutputs
 
